@@ -1,7 +1,25 @@
 readthebigrdoc
 rmdformatbigr
 
-bordeaux foncé: #9F2042 -> #00748d
+bordeaux moyen: #9F2042 -> bleu turquoise bigr: #00748d
+bordeau foncé: #7B0D1E -> bleu fonce ecriture bigr: #1d2b37
+rose moyen: #d64a70 -> nouveau bleu clair (hopital) pale #82CACA
+rose fonce: #c7254e -> bleu turquoise bigr: #00748d
+marron foncé: #3d1308 ->  -> bleu fonce ecriture bigr: #1d2b37
+marron très très foncé: #211103 -> bleu fonce ecriture bigr: #1d2b37
+
+
+
+
+# coleur du readthedoc
+jaunce clair: #ff9 ->
+jaune vif: #ff0 ->
+rouge très pale: #fdf3f2 ->
+ocre pale: #ffedcc ->
+bleu très pale: #e7f2fa
+
+
+
 
 
 
