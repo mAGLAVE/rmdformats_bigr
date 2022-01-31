@@ -1,8 +1,11 @@
 ---
-title: "readthebigrdoc template example"
+title: "`readthebigrdoc` template example"
 date: "`r Sys.Date()`"
-author: "BiGR: Bioinformatics Core Facility of Gustave Roussy, marine"
-mail: "bigr@gustaveroussy.fr"
+author:
+  - name: "BiGR: Bioinformatics Core Facility of Gustave Roussy"
+    email: "bigr@gustaveroussy.fr"
+  - name: "Marine AGLAVE"
+    email: "marine.aglave@gustaveroussy.fr"
 output:
   rmdformatbigr::readthebigrdoc:
     code_folding: show
