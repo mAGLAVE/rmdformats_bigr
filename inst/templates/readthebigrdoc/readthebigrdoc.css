@@ -973,6 +973,10 @@ footer p{
     display:none;
 }
 
+#postamble img{
+    max-width:100%;
+}
+
 #content img{
     max-width:100%;
 }
