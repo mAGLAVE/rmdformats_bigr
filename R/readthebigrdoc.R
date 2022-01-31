@@ -43,7 +43,7 @@ readthebigrdoc <- function(fig_width = 8,
                        use_bookdown = FALSE,
                        pandoc_args = NULL,
                        md_extensions = NULL,
-                       mathjax = "rmdformats_bigr",
+                       mathjax = "rmdformatbigr",
                        ...) {
 
     html_template(
@@ -80,7 +80,7 @@ html_dependency_readthebigrdoc <- function(embed_fonts = TRUE) {
   }
   htmltools::htmlDependency(name = "readthebigrdoc",
                  version = "0.1",
-                 src = system.file("templates/readthebigrdoc", package = "rmdformats_bigr"),
+                 src = system.file("templates/readthebigrdoc", package = "rmdformatbigr"),
                  script = "readthebigrdoc.js",
                  stylesheet = stylesheets)
 }
