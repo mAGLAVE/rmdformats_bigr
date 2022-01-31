@@ -17,7 +17,7 @@ readthebigrdoc(
   use_bookdown = FALSE,
   pandoc_args = NULL,
   md_extensions = NULL,
-  mathjax = "rmdformats",
+  mathjax = "rmdformatsbigr",
   ...
 )
 }
