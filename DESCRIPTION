@@ -22,5 +22,5 @@ Suggests:
     DT,
     palmerpenguins,
     ggplot2
-URL: https://github.com/juba/rmdformats
-BugReports: https://github.com/juba/rmdformats/issues
+URL: https://github.com/mAGLAVE/rmdformats_bigr
+BugReports: https://github.com/mAGLAVE/rmdformats_bigr/issues
