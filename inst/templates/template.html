@@ -280,12 +280,13 @@
     <div id="postamble" data-toggle="wy-nav-shift" class="status">
       <img src="/home/m_aglave/Bureau/rmdformats_bigr/images/bigr_mini.png", alt="BiGR logo", class="center">
       $for(author)$
-        $if(author.name)$
-          <p class="author"><span class="glyphicon glyphicon-user">$author.name</span>$endif$
-      	$if(author.affiliation)$
-      	  <br /><span class="author_affil">$author.affiliation$</span>$endif$
-      	$if(author.email)$
-      	  <br /><a class="author_email" href="mailto:#">$author.email$</a>$endif$
+      $if(author.name)$
+      <p class="author"><span class="glyphicon glyphicon-user"></span> $author.name$
+	$if(author.affiliation)$
+	<br /><span class="author_affil">$author.affiliation$</span>$endif$
+	$if(author.email)$
+	<br /><a class="author_email" href="mailto:#">$author.email$</a>
+	$endif$
       </p>
       $else$
       <p class="author"><span class="glyphicon glyphicon-user"></span> $author$</p>
