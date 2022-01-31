@@ -2,7 +2,7 @@
 
 ```{r setup, include=FALSE}
 library(knitr)
-library(rmdformats_bigr)
+library(rmdformatbigr)
 
 ## Global options
 options(max.print = "75")

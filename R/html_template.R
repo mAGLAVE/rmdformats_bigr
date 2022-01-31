@@ -80,7 +80,7 @@ html_template <- function(
 
     ## Call rmarkdown::html_document
     html_document_args <- list(
-        template = system.file(template_path, package = "rmdformats"),
+        template = system.file(template_path, package = "rmdformatbigr"),
         extra_dependencies = extra_dependencies,
         pandoc_args = pandoc_args
     )

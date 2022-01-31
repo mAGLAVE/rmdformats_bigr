@@ -3,7 +3,7 @@ title: "readthebigrdoc template example"
 date: "`r Sys.Date()`"
 author: juba
 output:
-  rmdformats::readthebigrdoc:
+  rmdformatbigr::readthebigrdoc:
     code_folding: show
     self_contained: true
     thumbnails: false

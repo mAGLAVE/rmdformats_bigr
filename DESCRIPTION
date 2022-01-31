@@ -1,4 +1,4 @@
-Package: rmdformatsbigr
+Package: rmdformatbigr
 Maintainer: Marine AGLAVE <marine.aglave@gustaveroussy.fr>
 Authors@R: c(person("Julien", "Barnier",role=c("aut")),
 	person("Marine", "AGLAVE", email="marine.aglave@gustaveroussy.fr",role=c("aut","cre")))

@@ -2,7 +2,7 @@
 title: ""
 date: "`r Sys.Date()`"
 output:
-  rmdformats::readthebigrdoc:
+  rmdformatbigr::readthebigrdoc:
     highlight: kate
 ---
 

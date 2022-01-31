@@ -1,2 +1,2 @@
 readthebigrdoc
-rmdformats_bigr
+rmdformatbigr

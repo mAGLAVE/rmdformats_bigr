@@ -3,7 +3,7 @@
 html_dependency_magnific_popup <- function() {
   htmltools::htmlDependency(name = "magnific-popup",
                             version = "1.1.0",
-                            src = system.file("templates/magnific-popup-1.1.0", package = "rmdformats"),
+                            src = system.file("templates/magnific-popup-1.1.0", package = "rmdformatbigr"),
                             script = "jquery.magnific-popup.min.js",
                             stylesheet = "magnific-popup.css")
 }
@@ -12,7 +12,7 @@ html_dependency_magnific_popup <- function() {
 html_dependency_jquery_stickytableheaders <- function()  {
   htmltools::htmlDependency(name = "jquery-stickytableheaders",
                             version = "0.1.11",
-                            src = system.file("templates/jquery-stickytableheaders-0.1.11", package = "rmdformats"),
+                            src = system.file("templates/jquery-stickytableheaders-0.1.11", package = "rmdformatbigr"),
                             script = "jquery.stickytableheaders.min.js")
 }
 
@@ -21,7 +21,7 @@ html_dependency_jquery_stickytableheaders <- function()  {
 html_dependency_bootstrap <- function(theme = "bootstrap") {
   htmltools::htmlDependency(name = "bootstrap",
                  version = "3.3.7",
-                 src = system.file("templates/bootstrap-3.3.7", package = "rmdformats"),
+                 src = system.file("templates/bootstrap-3.3.7", package = "rmdformatbigr"),
                  meta = list(viewport = "width=device-width, initial-scale=1"),
                  script = c(
                    "js/bootstrap.min.js"
@@ -36,7 +36,7 @@ html_dependency_bootstrap <- function(theme = "bootstrap") {
 html_dependency_bootstrap_js <- function() {
   htmltools::htmlDependency(name = "bootstrap_js",
                             version = "3.3.7",
-                            src = system.file("templates/bootstrap-3.3.7", package = "rmdformats"),
+                            src = system.file("templates/bootstrap-3.3.7", package = "rmdformatbigr"),
                             meta = list(viewport = "width=device-width, initial-scale=1"),
                             script = c(
                               "js/bootstrap.min.js"
@@ -62,6 +62,6 @@ html_dependency_navigation <- function(code_menu = TRUE, source_embed = FALSE) {
     script <- c(script, "FileSaver.min.js", "sourceembed.js")
     htmltools::htmlDependency(name = "navigation",
                               version = "1.1",
-                              src = system.file("templates/navigation-1.1", package = "rmdformats"),
+                              src = system.file("templates/navigation-1.1", package = "rmdformatbigr"),
                               script = script)
 }
