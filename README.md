@@ -4,20 +4,16 @@
 ![CRAN Downloads](https://cranlogs.r-pkg.org/badges/last-month/rmdformats)
 [![R build status](https://github.com/juba/rmdformats/workflows/R-CMD-check/badge.svg)](https://github.com/juba/rmdformats/actions?query=workflow%3AR-CMD-check)
 
-This R package provides ready-to-use HTML output formats and templates for
+This R package provides ready-to-use HTML output templates for
 RMarkdown documents. The goal is to produce clean documents "out of the box",
 with or without the RStudio IDE.
 
 ## Formats gallery
 
-The package provides several HTML output formats. Click on any image to see an HTML output sample.
+### `readthebigrdoc`
+This template is inspired from `readthedown` template from [rmdformats](https://github.com/juba/rmdformats) package, itself adapted from the corresponding `readtheorg` theme of the [org-html-themes](https://github.com/fniessen/org-html-themes) project, fully responsive with dynamic table of contents and collapsible navigation.
 
-
-### `readthedown`
-
-Adapted from the corresponding `readtheorg` theme of the [org-html-themes](https://github.com/fniessen/org-html-themes) project, fully responsive with dynamic table of contents and collapsible navigation.
-
-[![readthedown example](man/figures/readthedown.png)](https://juba.github.io/rmdformats/articles/examples/readthedown.html)
+[![readthebigrdoc example](man/figures/readthebigrdoc.png)](https://juba.github.io/rmdformats/articles/examples/readthedown.html)
 
 
 ## Helpers

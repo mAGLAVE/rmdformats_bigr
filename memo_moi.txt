@@ -9,21 +9,6 @@ marron foncé: #3d1308 ->  -> bleu fonce ecriture bigr: #1d2b37
 marron très très foncé: #211103 -> bleu fonce ecriture bigr: #1d2b37
 
 
-
-
-# coleur du readthedoc
-jaunce clair: #ff9 ->
-jaune vif: #ff0 ->
-rouge très pale: #fdf3f2 ->
-ocre pale: #ffedcc ->
-bleu très pale: #e7f2fa
-
-
-
-
-
-
-
 bleu turquoise bigr: #00748d
 bleu clair ecriture bigr: #00cccc
 bleu fonce ecriture bigr: #1d2b37
