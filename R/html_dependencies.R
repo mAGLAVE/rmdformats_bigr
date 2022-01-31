@@ -48,7 +48,8 @@ default_mathjax <- function() {
   paste0("https://mathjax.rstudio.com/latest/", mathjax_config())
 }
 mathjax_config <- function() {
-  "MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  "MathJax.js?config=default"
+  #"MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 }
 
 # Navigation.js (copied and adapted from rmarkdown

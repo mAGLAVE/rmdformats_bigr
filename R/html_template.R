@@ -41,7 +41,7 @@ html_template <- function(
     ## Force mathjax arguments
     if (!is.null(args[["mathjax"]])) {
         pandoc_args <- c(pandoc_args,
-                         "--mathjax", "--template",
+                         "--mathjax",
                          "--variable", paste0("mathjax-url:", default_mathjax()))
     }
     ## Other arguments
