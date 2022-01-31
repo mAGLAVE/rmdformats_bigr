@@ -1,2 +1,89 @@
 # rmdformats_bigr
-This is a template for Rmarkdown html knit for BiGR team
+
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version-ago/rmdformats)](https://cran.r-project.org/package=rmdformats)
+![CRAN Downloads](https://cranlogs.r-pkg.org/badges/last-month/rmdformats)
+[![R build status](https://github.com/juba/rmdformats/workflows/R-CMD-check/badge.svg)](https://github.com/juba/rmdformats/actions?query=workflow%3AR-CMD-check)
+
+This R package provides ready-to-use HTML output formats and templates for
+RMarkdown documents. The goal is to produce clean documents "out of the box",
+with or without the RStudio IDE.
+
+## Formats gallery
+
+The package provides several HTML output formats. Click on any image to see an HTML output sample.
+
+
+### `readthedown`
+
+Adapted from the corresponding `readtheorg` theme of the [org-html-themes](https://github.com/fniessen/org-html-themes) project, fully responsive with dynamic table of contents and collapsible navigation.
+
+[![readthedown example](man/figures/readthedown.png)](https://juba.github.io/rmdformats/articles/examples/readthedown.html)
+
+
+## Helpers
+
+The package also provides RStudio document
+templates to easily generate an empty and ready to use rmarkdown file with
+several configuration directives.
+
+It also provides the `pilltabs()` helper function, which allows to display a crosstab dynamically. See [one of the output samples](https://juba.github.io/rmdformats/articles/examples/robobook.html#table) for a live example.
+
+## Installation
+
+You can install the latest release from GitLab :
+
+```r
+install.packages(remotes)  # if necessary
+remotes::install_gitlab("juba/rmdformats")
+```
+
+## Creating a new document
+
+Just create a new `Rmd` file and add the following in your YAML preamble :
+
+```yaml
+---
+output: rmdformats::readthebigrdoc
+---
+```
+
+Within RStudio , you can also choose `File` > `New File...` > `R Markdown...`, then select `From Template`. You should then be able to create a new document from the package template.
+
+## Options
+
+Depending on the features provided by the template, you can add the following options to your YAML preamble. Look at the template function help page for a valid list :
+
+- `fig_width` : figures width, in inches
+- `fig_height` : figures height, in inches
+- `fig_caption` : toggle figure caption rendering
+- `highlight` : syntax highlighting
+- `thumbnails` : if TRUE, display content images as thumbnails
+- `lightbox` : if TRUE, add lightbox effect to content images
+- `gallery` : if TRUE, add navigation between images when displayed in lightbox
+- `use_bookdown` : if TRUE, will use `bookdown` instead of `rmarkdown` for HTML rendering, thus providing section numbering and [cross references](https://bookdown.org/yihui/bookdown/cross-references.html).
+- `embed_fonts` : if `TRUE` (default), use local files for fonts used in the template instead of links to Google Web fonts. This leads to bigger files but ensures that the fonts are available
+- additional aguments are passed to the base `html_document` RMarkdown template
+
+Example preamble :
+
+```yaml
+---
+title: "My document"
+date: "`r Sys.Date()`"
+author: John Doe
+output:
+  rmdformats::downcute:
+    self_contained: true
+    thumbnails: true
+    lightbox: true
+    gallery: false
+    highlight: tango
+---
+```
+
+## Credits
+
+- [Magnific popup](https://dimsemenov.com/plugins/magnific-popup/) lightbox plugin.
+- The CSS and JavaScript for `readthebigrdoc` is adapted from the corresponding `readthedown` template from the [rmdformats](https://github.com/juba/rmdformats) package, which is itself inspired by the `readtheorg` theme of the [org-html-themes](https://github.com/fniessen/org-html-themes) project, which is itself inspired by the [Read the docs](https://readthedocs.org/) [Sphinx](http://sphinx-doc.org/) theme.
+- JavaScript and HTML code for code folding and tabbed sections are taken from the RStudio's default `rmarkdown` HTML template.
+

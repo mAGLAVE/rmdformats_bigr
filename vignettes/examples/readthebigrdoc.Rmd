@@ -1,0 +1,20 @@
+---
+title: "readthebigrdoc template example"
+date: "`r Sys.Date()`"
+author: juba
+output:
+  rmdformats::readthebigrdoc:
+    code_folding: show
+    self_contained: true
+    thumbnails: false
+    lightbox: false
+pkgdown:
+  as_is: true    
+---
+
+
+```{r, results="asis", echo=FALSE, message=FALSE, warning=FALSE}
+res <- knitr::knit_child('_example_body.Rmd', quiet = TRUE)
+cat(res, sep = '\n')
+```
+
