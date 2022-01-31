@@ -1,2 +1,12 @@
 readthebigrdoc
 rmdformatbigr
+
+bordeaux foncé: #9F2042 -> #00748d
+
+
+
+
+bleu turquoise bigr: #00748d
+bleu clair ecriture bigr: #00cccc
+bleu fonce ecriture bigr: #1d2b37
+blanc ecriture bigr: #ffffff

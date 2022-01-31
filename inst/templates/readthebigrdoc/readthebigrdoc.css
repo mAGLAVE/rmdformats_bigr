@@ -14,14 +14,14 @@
 
 #main .nav-pills > li > a:hover {
   color: #FFFFFF !important;
-  background-color: #9F2042;
+  background-color: #00748d;
 }
 
 #main .nav-pills > li.active > a,
 #main .nav-pills > li.active > a:hover,
 #main .nav-pills > li.active > a:focus {
   color: #FFFFFF !important;
-  background-color: #9F2042;
+  background-color: #00748d;
 }
 
 /* Chi-squared results */
@@ -87,7 +87,7 @@ img.image-lb {
 h1,h2,h3,h4,h5,h6,legend{
     font-family:"Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
     font-weight:700;
-    color: #9F2042;
+    color: #00748d;
 }
 
 h1{
@@ -424,7 +424,7 @@ dl dd{
 }
 
 #nav-top span.glyphicon {
-  color: #9F2042;
+  color: #00748d;
   font-size: 28px;
 }
 
@@ -682,17 +682,17 @@ label{
     font-size:90%}
 
 a {
-    color:#7B0D1E;
+    color:#1d2b37;
     text-decoration:none;
     cursor:pointer;
 }
 
 #main :not(.leaflet-control) > a {
-    background-image: linear-gradient(180deg,#d64a70,#d64a70);
+    background-image: linear-gradient(180deg,#82CACA,#82CACA);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: 0 2em;
-    color:#c7254e;
+    color:#00748d;
     font-weight: 300;
     padding: .125em 1px 0 1px;
     transition: background-position .15s, color .15s;
@@ -709,10 +709,10 @@ a:hover, a:active{
 }
 
 a:hover{
-    color:#3d1308}
+    color:#1d2b37}
 
 a:visited{
-    color:#3d1308}
+    color:#1d2b37}
 
 #main a.sourceLine {
   color: inherit;
@@ -749,7 +749,7 @@ hr{
     font-weight:bold;
     text-transform:uppercase;
     font-size:80%;
-    color:#9F2042;
+    color:#00748d;
     white-space:nowrap}
 
 #toc ul{
@@ -838,14 +838,14 @@ hr{
     display: flex;
     flex-direction: column;
     height:100%;
-    background:#211103;
+    background:#1d2b37;
     z-index:200;
     font-size: 16px;
 }
 
 #sidebar h2{
     z-index:200;
-    background-color:#9F2042;
+    background-color:#00748d;
     text-align:center;
     padding:0.809em;
     display:block;
@@ -947,7 +947,7 @@ footer p{
 #postamble{
     color:#fcfcfc;
     background:#1f1d1d;
-    border-top:solid 10px #211103;
+    border-top:solid 10px #1d2b37;
     font-family:"Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
     font-size: 90%;
     z-index:400;
@@ -962,7 +962,6 @@ footer p{
 #postamble .date {
     font-size: 100%;
     margin-bottom: 0px;
-    color: #f8e5ee;
 }
 
 #postamble .author span,
